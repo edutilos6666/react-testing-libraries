@@ -76,6 +76,54 @@ const Header = props => {
               </Nav.Link>
             </NavDropdown.Item>
             <NavDropdown.Divider />
+
+            <NavDropdown.Item eventKey={"pr-chips"} as="span">
+              <Nav.Link
+                as={Link}
+                to="/pr-chips"
+                onSelect={() => handleLinkOnSelect(0)}
+                className={selectionMap[0] ? "text-light" : "text-dark"}
+              >
+                Chips Example
+              </Nav.Link>
+            </NavDropdown.Item>
+            <NavDropdown.Divider />
+
+            <NavDropdown.Item eventKey={"pr-dropdown"} as="span">
+              <Nav.Link
+                as={Link}
+                to="/pr-dropdown"
+                onSelect={() => handleLinkOnSelect(0)}
+                className={selectionMap[0] ? "text-light" : "text-dark"}
+              >
+                Dropdown Example
+              </Nav.Link>
+            </NavDropdown.Item>
+            <NavDropdown.Divider />
+
+            <NavDropdown.Item eventKey={"pr-editor"} as="span">
+              <Nav.Link
+                as={Link}
+                to="/pr-editor"
+                onSelect={() => handleLinkOnSelect(0)}
+                className={selectionMap[0] ? "text-light" : "text-dark"}
+              >
+                Editor Example
+              </Nav.Link>
+            </NavDropdown.Item>
+            <NavDropdown.Divider />
+
+            <NavDropdown.Item eventKey={"pr-input-mask"} as="span">
+              <Nav.Link
+                as={Link}
+                to="/pr-input-mask"
+                onSelect={() => handleLinkOnSelect(0)}
+                className={selectionMap[0] ? "text-light" : "text-dark"}
+              >
+                InputMask Example
+              </Nav.Link>
+            </NavDropdown.Item>
+            <NavDropdown.Divider />
           </NavDropdown>
         </Nav>
         <Nav>
