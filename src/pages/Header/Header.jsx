@@ -161,6 +161,57 @@ const Header = props => {
             </NavDropdown.Item>
             <NavDropdown.Divider />
           </NavDropdown>
+
+          {/* react-table */}
+          <NavDropdown title="react-table" id="hw">
+            <NavDropdown.Item eventKey={"rt-example-1"} as="span">
+              <Nav.Link
+                as={Link}
+                to="/rt-example-1"
+                onSelect={() => handleLinkOnSelect(0)}
+                className={selectionMap[0] ? "text-light" : "text-dark"}
+              >
+                ReactTableExample1
+              </Nav.Link>
+            </NavDropdown.Item>
+            <NavDropdown.Divider />
+
+            <NavDropdown.Item eventKey={"rt-example-2"} as="span">
+              <Nav.Link
+                as={Link}
+                to="/rt-example-2"
+                onSelect={() => handleLinkOnSelect(0)}
+                className={selectionMap[0] ? "text-light" : "text-dark"}
+              >
+                ReactTableExample2
+              </Nav.Link>
+            </NavDropdown.Item>
+            <NavDropdown.Divider />
+
+            <NavDropdown.Item eventKey={"rt-row-selection-example"} as="span">
+              <Nav.Link
+                as={Link}
+                to="/rt-row-selection-example"
+                onSelect={() => handleLinkOnSelect(0)}
+                className={selectionMap[0] ? "text-light" : "text-dark"}
+              >
+                ReactTableRowSelectionExample
+              </Nav.Link>
+            </NavDropdown.Item>
+            <NavDropdown.Divider />
+
+            <NavDropdown.Item eventKey={"rt-pagination-example"} as="span">
+              <Nav.Link
+                as={Link}
+                to="/rt-pagination-example"
+                onSelect={() => handleLinkOnSelect(0)}
+                className={selectionMap[0] ? "text-light" : "text-dark"}
+              >
+                ReactTablePaginationExample
+              </Nav.Link>
+            </NavDropdown.Item>
+            <NavDropdown.Divider />
+          </NavDropdown>
         </Nav>
         <Nav>
           <Nav.Link as={Link} to="/userhome" className="text-light">
