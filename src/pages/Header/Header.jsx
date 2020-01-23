@@ -124,6 +124,42 @@ const Header = props => {
               </Nav.Link>
             </NavDropdown.Item>
             <NavDropdown.Divider />
+
+            <NavDropdown.Item eventKey={"pr-chart"} as="span">
+              <Nav.Link
+                as={Link}
+                to="/pr-chart"
+                onSelect={() => handleLinkOnSelect(0)}
+                className={selectionMap[0] ? "text-light" : "text-dark"}
+              >
+                PieChart Example
+              </Nav.Link>
+            </NavDropdown.Item>
+            <NavDropdown.Divider />
+
+            <NavDropdown.Item eventKey={"pr-bar-chart"} as="span">
+              <Nav.Link
+                as={Link}
+                to="/pr-bar-chart"
+                onSelect={() => handleLinkOnSelect(0)}
+                className={selectionMap[0] ? "text-light" : "text-dark"}
+              >
+                BarChart Example
+              </Nav.Link>
+            </NavDropdown.Item>
+            <NavDropdown.Divider />
+
+            <NavDropdown.Item eventKey={"pr-line-chart"} as="span">
+              <Nav.Link
+                as={Link}
+                to="/pr-line-chart"
+                onSelect={() => handleLinkOnSelect(0)}
+                className={selectionMap[0] ? "text-light" : "text-dark"}
+              >
+                LineChart Example
+              </Nav.Link>
+            </NavDropdown.Item>
+            <NavDropdown.Divider />
           </NavDropdown>
         </Nav>
         <Nav>

@@ -8,6 +8,10 @@ import ChipsExample from "../PrimeReactExamples/ChipsExample/ChipsExample";
 import DropdownExample from "../PrimeReactExamples/DropdownExample/DropdownExample";
 import EditorExample from "../PrimeReactExamples/EditorExample/EditorExample";
 import InputMaskExample from "../PrimeReactExamples/InputMaskExample/InputMaskExample";
+import ChartExamples from "../PrimeReactExamples/ChartExample/ChartExamples";
+import BarChartExample from "../PrimeReactExamples/ChartExample/BarChartExample";
+import LineChartExample from "../PrimeReactExamples/ChartExample/LineChartExample";
+
 const AppRouter = () => {
   return (
     <Router>
@@ -19,6 +23,9 @@ const AppRouter = () => {
       <Route path="/pr-dropdown" component={DropdownExample} />
       <Route path="/pr-editor" component={EditorExample} />
       <Route path="/pr-input-mask" component={InputMaskExample} />
+      <Route path="/pr-chart" component={ChartExamples} />
+      <Route path="/pr-bar-chart" component={BarChartExample} />
+      <Route path="/pr-line-chart" component={LineChartExample} />
     </Router>
   );
 };
