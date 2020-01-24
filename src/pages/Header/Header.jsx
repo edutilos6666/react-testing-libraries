@@ -249,6 +249,21 @@ const Header = props => {
             </NavDropdown.Item>
             <NavDropdown.Divider />
           </NavDropdown>
+
+          {/* ReactVirtualizedExamples */}
+          <NavDropdown title="ReactVirtualizedExamples" id="rv">
+            <NavDropdown.Item eventKey={"rv-infinity-loader"} as="span">
+              <Nav.Link
+                as={Link}
+                to="/rv-infinity-loader"
+                onSelect={() => handleLinkOnSelect(0)}
+                className={selectionMap[0] ? "text-light" : "text-dark"}
+              >
+                ReactVirtualizedInfinityLoaderExample
+              </Nav.Link>
+            </NavDropdown.Item>
+            <NavDropdown.Divider />
+          </NavDropdown>
         </Nav>
         <Nav>
           <Nav.Link as={Link} to="/userhome" className="text-light">

@@ -19,6 +19,7 @@ import ReactTableRowSelectionExample from "../ReactTableExamples/ReactTableRowSe
 import ReactTablePaginationExample from "../ReactTableExamples/ReactTablePaginationExample";
 import ClientRectExample from "../HelloWorldExamples/ClientRectExample/ClientRectExample";
 import ReducerExample from "../HelloWorldExamples/ReducerExample/ReducerExample";
+import ReactVirtualizedInfinityLoaderClassExample from "../ReactVirtualizedExamples/ReactVirtualizedInfinityLoaderClassExample";
 const AppRouter = () => {
   return (
     <Router>
@@ -47,6 +48,11 @@ const AppRouter = () => {
       <Route
         path="/rt-pagination-example"
         component={ReactTablePaginationExample}
+      />
+      {/* react-virtualized */}
+      <Route
+        path="/rv-infinity-loader"
+        component={ReactVirtualizedInfinityLoaderClassExample}
       />
     </Router>
   );
