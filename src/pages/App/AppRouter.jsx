@@ -1,7 +1,9 @@
 import React from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
-import HelloWorld from "../HelloWorld/HelloWorld";
-import ByeWorld from "../HelloWorld/ByeWorld";
+import HelloWorld from "../HelloWorldExamples/HelloWorld/HelloWorld";
+import ByeWorld from "../HelloWorldExamples/HelloWorld/ByeWorld";
+import FancyInputExample from "../HelloWorldExamples/FancyInputExample/FancyInputExample";
+
 import Header from "../Header/Header";
 import PRButtonExample from "../PrimeReactExamples/PRButtonExample/PRButtonExample";
 import ChipsExample from "../PrimeReactExamples/ChipsExample/ChipsExample";
@@ -15,12 +17,17 @@ import ReactTableExample1 from "../ReactTableExamples/ReactTableExample1";
 import ReactTableExample2 from "../ReactTableExamples/ReactTableExample2";
 import ReactTableRowSelectionExample from "../ReactTableExamples/ReactTableRowSelectionExample";
 import ReactTablePaginationExample from "../ReactTableExamples/ReactTablePaginationExample";
+import ClientRectExample from "../HelloWorldExamples/ClientRectExample/ClientRectExample";
+import ReducerExample from "../HelloWorldExamples/ReducerExample/ReducerExample";
 const AppRouter = () => {
   return (
     <Router>
       <Header />
       <Route path="/hello" component={HelloWorld} />
       <Route path="/bye" component={ByeWorld} />
+      <Route path="/fancy-input" component={FancyInputExample} />
+      <Route path="/client-rect" component={ClientRectExample} />
+      <Route path="/reducer" component={ReducerExample} />
       {/* PrimeReact */}
       <Route path="/pr-button" component={PRButtonExample} />
       <Route path="/pr-chips" component={ChipsExample} />

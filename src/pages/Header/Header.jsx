@@ -61,6 +61,43 @@ const Header = props => {
                 ByeWorld
               </Nav.Link>
             </NavDropdown.Item>
+            <NavDropdown.Divider />
+
+            <NavDropdown.Item eventKey={"fancy-input"} as="span">
+              <Nav.Link
+                as={Link}
+                to="/fancy-input"
+                onSelect={() => handleLinkOnSelect(0)}
+                className={selectionMap[0] ? "text-light" : "text-dark"}
+              >
+                FancyInputExample
+              </Nav.Link>
+            </NavDropdown.Item>
+            <NavDropdown.Divider />
+
+            <NavDropdown.Item eventKey={"client-rect"} as="span">
+              <Nav.Link
+                as={Link}
+                to="/client-rect"
+                onSelect={() => handleLinkOnSelect(0)}
+                className={selectionMap[0] ? "text-light" : "text-dark"}
+              >
+                ClientRectExample
+              </Nav.Link>
+            </NavDropdown.Item>
+            <NavDropdown.Divider />
+
+            <NavDropdown.Item eventKey={"reducer"} as="span">
+              <Nav.Link
+                as={Link}
+                to="/reducer"
+                onSelect={() => handleLinkOnSelect(0)}
+                className={selectionMap[0] ? "text-light" : "text-dark"}
+              >
+                ReducerExample
+              </Nav.Link>
+            </NavDropdown.Item>
+            <NavDropdown.Divider />
           </NavDropdown>
 
           {/* PrimeReact */}
