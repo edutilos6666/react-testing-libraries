@@ -27,6 +27,11 @@ import ReactSortableHOCExample1 from "../ReactSortableHOCExamples/ReactSortableH
 import ReactInfiniteExample from "../ReactSortableHOCExamples/ReactInfiniteExample";
 import ReactDnDExample1 from "../ReactDnDExamples/ReactDnDExample1/ReactDnDExample1";
 import ReactDnDExample2 from "../ReactDnDExamples/ReactDnDExample2/ReactDnDExample2";
+import MaterialUIDenseTable from "../MaterialUIExamples/MaterialUIDenseTable";
+import MaterialUISortableAndSelectableTable from "../MaterialUIExamples/MaterialUISortableAndSelectableTable";
+import MaterialUISimpleTableExample from "../MaterialUIExamples/MaterialUISimpleTableExample";
+import MaterialUISnackbarExample from "../MaterialUIExamples/MaterialUISnackbarExample";
+import MaterialUIStepperExample from "../MaterialUIExamples/MaterialUIStepperExample";
 
 const AppRouter = () => {
   return (
@@ -73,6 +78,20 @@ const AppRouter = () => {
       {/* react-dnd */}
       <Route path="/rdnd-example-1" component={ReactDnDExample1} />
       <Route path="/rdnd-example-2" component={ReactDnDExample2} />
+      {/* material-ui */}
+      <Route path="/material-dense-table" component={MaterialUIDenseTable} />
+      <Route
+        path="/material-sortable-and-selectable-table"
+        component={MaterialUISortableAndSelectableTable}
+      />
+
+      <Route
+        path="/material-simple-table"
+        component={MaterialUISimpleTableExample}
+      />
+
+      <Route path="/material-snackbar" component={MaterialUISnackbarExample} />
+      <Route path="/material-stepper" component={MaterialUIStepperExample} />
     </Router>
   );
 };

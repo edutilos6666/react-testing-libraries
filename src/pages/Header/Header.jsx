@@ -360,6 +360,72 @@ const Header = props => {
             </NavDropdown.Item>
             <NavDropdown.Divider />
           </NavDropdown>
+
+          {/* MaterialUIExamples */}
+          <NavDropdown title="MaterialUIExamples" id="rdnd">
+            <NavDropdown.Item eventKey={"material-dense-table"} as="span">
+              <Nav.Link
+                as={Link}
+                to="/material-dense-table"
+                onSelect={() => handleLinkOnSelect(0)}
+                className={selectionMap[0] ? "text-light" : "text-dark"}
+              >
+                MaterialUIDenseTable
+              </Nav.Link>
+            </NavDropdown.Item>
+            <NavDropdown.Divider />
+
+            <NavDropdown.Item
+              eventKey={"material-sortable-and-selectable-table"}
+              as="span"
+            >
+              <Nav.Link
+                as={Link}
+                to="/material-sortable-and-selectable-table"
+                onSelect={() => handleLinkOnSelect(0)}
+                className={selectionMap[0] ? "text-light" : "text-dark"}
+              >
+                MaterialUISortableAndSelectableTable
+              </Nav.Link>
+            </NavDropdown.Item>
+            <NavDropdown.Divider />
+
+            <NavDropdown.Item eventKey={"material-simple-table"} as="span">
+              <Nav.Link
+                as={Link}
+                to="/material-simple-table"
+                onSelect={() => handleLinkOnSelect(0)}
+                className={selectionMap[0] ? "text-light" : "text-dark"}
+              >
+                MaterialUISimpleTableExample
+              </Nav.Link>
+            </NavDropdown.Item>
+            <NavDropdown.Divider />
+
+            <NavDropdown.Item eventKey={"material-snackbar"} as="span">
+              <Nav.Link
+                as={Link}
+                to="/material-snackbar"
+                onSelect={() => handleLinkOnSelect(0)}
+                className={selectionMap[0] ? "text-light" : "text-dark"}
+              >
+                MaterialUISnackbarExample
+              </Nav.Link>
+            </NavDropdown.Item>
+            <NavDropdown.Divider />
+
+            <NavDropdown.Item eventKey={"material-stepper"} as="span">
+              <Nav.Link
+                as={Link}
+                to="/material-stepper"
+                onSelect={() => handleLinkOnSelect(0)}
+                className={selectionMap[0] ? "text-light" : "text-dark"}
+              >
+                MaterialUIStepperExample
+              </Nav.Link>
+            </NavDropdown.Item>
+            <NavDropdown.Divider />
+          </NavDropdown>
         </Nav>
         <Nav>
           <Nav.Link as={Link} to="/userhome" className="text-light">
