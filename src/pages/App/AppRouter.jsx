@@ -22,6 +22,11 @@ import ReducerExample from "../HelloWorldExamples/ReducerExample/ReducerExample"
 import ReactVirtualizedInfinityLoaderClassExample from "../ReactVirtualizedExamples/ReactVirtualizedInfinityLoaderClassExample";
 import ReactSingleSelectExample from "../ReactSelectExamples/ReactSingleSelectExample";
 import ReactMultiSelectExample from "../ReactSelectExamples/ReactMultiSelectExample";
+import ReactPhoneNumberInputExample from "../ReactPhoneNumberInputExample/ReactPhoneNumberInputExample";
+import ReactSortableHOCExample1 from "../ReactSortableHOCExamples/ReactSortableHOCExample1";
+import ReactInfiniteExample from "../ReactSortableHOCExamples/ReactInfiniteExample";
+import ReactDnDExample1 from "../ReactDnDExamples/ReactDnDExample1/ReactDnDExample1";
+import ReactDnDExample2 from "../ReactDnDExamples/ReactDnDExample2/ReactDnDExample2";
 
 const AppRouter = () => {
   return (
@@ -60,6 +65,14 @@ const AppRouter = () => {
       {/* react-select */}
       <Route path="/rs-single-select" component={ReactSingleSelectExample} />
       <Route path="/rs-multi-select" component={ReactMultiSelectExample} />
+      {/* react-phone-number-input */}
+      <Route path="/rpni-example-1" component={ReactPhoneNumberInputExample} />
+      {/* react-sortable-hoc */}
+      <Route path="/rsh-example-1" component={ReactSortableHOCExample1} />
+      <Route path="/rsh-inifinite-example" component={ReactInfiniteExample} />
+      {/* react-dnd */}
+      <Route path="/rdnd-example-1" component={ReactDnDExample1} />
+      <Route path="/rdnd-example-2" component={ReactDnDExample2} />
     </Router>
   );
 };

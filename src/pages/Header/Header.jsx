@@ -291,6 +291,75 @@ const Header = props => {
             </NavDropdown.Item>
             <NavDropdown.Divider />
           </NavDropdown>
+
+          {/* ReactPhoneNumberInputExamples */}
+          <NavDropdown title="ReactPhoneNumberInputExamples" id="rv">
+            <NavDropdown.Item eventKey={"rpni-example-1"} as="span">
+              <Nav.Link
+                as={Link}
+                to="/rpni-example-1"
+                onSelect={() => handleLinkOnSelect(0)}
+                className={selectionMap[0] ? "text-light" : "text-dark"}
+              >
+                ReactPhoneNumberInputExample 1
+              </Nav.Link>
+            </NavDropdown.Item>
+            <NavDropdown.Divider />
+          </NavDropdown>
+
+          {/* ReactSortableHOCExamples */}
+          <NavDropdown title="ReactSortableHOCExamples" id="rv">
+            <NavDropdown.Item eventKey={"rsh-example-1"} as="span">
+              <Nav.Link
+                as={Link}
+                to="/rsh-example-1"
+                onSelect={() => handleLinkOnSelect(0)}
+                className={selectionMap[0] ? "text-light" : "text-dark"}
+              >
+                ReactSortableHOCExample 1
+              </Nav.Link>
+            </NavDropdown.Item>
+            <NavDropdown.Divider />
+
+            <NavDropdown.Item eventKey={"rsh-inifinite-example"} as="span">
+              <Nav.Link
+                as={Link}
+                to="/rsh-inifinite-example"
+                onSelect={() => handleLinkOnSelect(0)}
+                className={selectionMap[0] ? "text-light" : "text-dark"}
+              >
+                ReactInfiniteExample
+              </Nav.Link>
+            </NavDropdown.Item>
+            <NavDropdown.Divider />
+          </NavDropdown>
+
+          {/* ReactDnDExamples */}
+          <NavDropdown title="ReactDnDExamples" id="rdnd">
+            <NavDropdown.Item eventKey={"rdnd-example-1"} as="span">
+              <Nav.Link
+                as={Link}
+                to="/rdnd-example-1"
+                onSelect={() => handleLinkOnSelect(0)}
+                className={selectionMap[0] ? "text-light" : "text-dark"}
+              >
+                ReactDnDExample1
+              </Nav.Link>
+            </NavDropdown.Item>
+            <NavDropdown.Divider />
+
+            <NavDropdown.Item eventKey={"rdnd-example-2"} as="span">
+              <Nav.Link
+                as={Link}
+                to="/rdnd-example-2"
+                onSelect={() => handleLinkOnSelect(0)}
+                className={selectionMap[0] ? "text-light" : "text-dark"}
+              >
+                ReactDnDExample2
+              </Nav.Link>
+            </NavDropdown.Item>
+            <NavDropdown.Divider />
+          </NavDropdown>
         </Nav>
         <Nav>
           <Nav.Link as={Link} to="/userhome" className="text-light">
