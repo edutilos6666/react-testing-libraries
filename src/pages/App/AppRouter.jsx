@@ -32,6 +32,7 @@ import MaterialUISortableAndSelectableTable from "../MaterialUIExamples/Material
 import MaterialUISimpleTableExample from "../MaterialUIExamples/MaterialUISimpleTableExample";
 import MaterialUISnackbarExample from "../MaterialUIExamples/MaterialUISnackbarExample";
 import MaterialUIStepperExample from "../MaterialUIExamples/MaterialUIStepperExample";
+import ChartistBarChartExample from "../ChartistExamples/ChartistBarChartExample";
 
 const AppRouter = () => {
   return (
@@ -92,6 +93,12 @@ const AppRouter = () => {
 
       <Route path="/material-snackbar" component={MaterialUISnackbarExample} />
       <Route path="/material-stepper" component={MaterialUIStepperExample} />
+
+      {/* react-chartist */}
+      <Route
+        path="/chartist-bar-chart-example"
+        component={ChartistBarChartExample}
+      />
     </Router>
   );
 };

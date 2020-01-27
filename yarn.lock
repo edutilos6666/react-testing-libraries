@@ -3018,6 +3018,11 @@ chart.js@^2.9.3:
     chartjs-color "^2.1.0"
     moment "^2.10.2"
 
+chartist@^0.11.4:
+  version "0.11.4"
+  resolved "https://npm.mirror.ddg.sh/chartist/-/chartist-0.11.4.tgz#e96e1c573d8b67478920a3a6ae52359d9fc8d8b7"
+  integrity sha512-H4AimxaUD738/u9Mq8t27J4lh6STsLi4BQHt65nOtpLk3xyrBPaLiLMrHw7/WV9CmsjGA02WihjuL5qpSagLYw==
+
 chartjs-color-string@^0.6.0:
   version "0.6.0"
   resolved "https://npm.mirror.ddg.sh/chartjs-color-string/-/chartjs-color-string-0.6.0.tgz#1df096621c0e70720a64f4135ea171d051402f71"
@@ -9365,6 +9370,13 @@ react-bootstrap@^1.0.0-beta.16:
     react-transition-group "^4.0.0"
     uncontrollable "^7.0.0"
     warning "^4.0.3"
+
+react-chartist@^0.14.2:
+  version "0.14.2"
+  resolved "https://npm.mirror.ddg.sh/react-chartist/-/react-chartist-0.14.2.tgz#18a56370a189c06e33fb59d00d5679a47115613c"
+  integrity sha512-QMg4aHfZoZ34EFFXmR0E0LJdXxR0TNIkyZCvgMTeHC+XzyRf2Lys9wWp7iyyvADOEpm+Gw3r4JKqf5pvl5ZhzQ==
+  dependencies:
+    prop-types "^15.5.8"
 
 react-dev-utils@^10.0.0:
   version "10.0.0"

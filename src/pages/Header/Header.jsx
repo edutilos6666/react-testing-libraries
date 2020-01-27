@@ -426,6 +426,21 @@ const Header = props => {
             </NavDropdown.Item>
             <NavDropdown.Divider />
           </NavDropdown>
+
+          {/* ChartistExamples */}
+          <NavDropdown title="ChartistExamples" id="rdnd">
+            <NavDropdown.Item eventKey={"chartist-bar-chart-example"} as="span">
+              <Nav.Link
+                as={Link}
+                to="/chartist-bar-chart-example"
+                onSelect={() => handleLinkOnSelect(0)}
+                className={selectionMap[0] ? "text-light" : "text-dark"}
+              >
+                ChartistBarChartExample
+              </Nav.Link>
+            </NavDropdown.Item>
+            <NavDropdown.Divider />
+          </NavDropdown>
         </Nav>
         <Nav>
           <Nav.Link as={Link} to="/userhome" className="text-light">
