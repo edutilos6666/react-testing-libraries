@@ -20,6 +20,9 @@ import ReactTablePaginationExample from "../ReactTableExamples/ReactTablePaginat
 import ClientRectExample from "../HelloWorldExamples/ClientRectExample/ClientRectExample";
 import ReducerExample from "../HelloWorldExamples/ReducerExample/ReducerExample";
 import ReactVirtualizedInfinityLoaderClassExample from "../ReactVirtualizedExamples/ReactVirtualizedInfinityLoaderClassExample";
+import ReactSingleSelectExample from "../ReactSelectExamples/ReactSingleSelectExample";
+import ReactMultiSelectExample from "../ReactSelectExamples/ReactMultiSelectExample";
+
 const AppRouter = () => {
   return (
     <Router>
@@ -54,6 +57,9 @@ const AppRouter = () => {
         path="/rv-infinity-loader"
         component={ReactVirtualizedInfinityLoaderClassExample}
       />
+      {/* react-select */}
+      <Route path="/rs-single-select" component={ReactSingleSelectExample} />
+      <Route path="/rs-multi-select" component={ReactMultiSelectExample} />
     </Router>
   );
 };

@@ -264,6 +264,33 @@ const Header = props => {
             </NavDropdown.Item>
             <NavDropdown.Divider />
           </NavDropdown>
+
+          {/* ReactSelectExamples */}
+          <NavDropdown title="ReactSelectExamples" id="rv">
+            <NavDropdown.Item eventKey={"rs-single-select"} as="span">
+              <Nav.Link
+                as={Link}
+                to="/rs-single-select"
+                onSelect={() => handleLinkOnSelect(0)}
+                className={selectionMap[0] ? "text-light" : "text-dark"}
+              >
+                ReactSingleSelectExample
+              </Nav.Link>
+            </NavDropdown.Item>
+            <NavDropdown.Divider />
+
+            <NavDropdown.Item eventKey={"rs-multi-select"} as="span">
+              <Nav.Link
+                as={Link}
+                to="/rs-multi-select"
+                onSelect={() => handleLinkOnSelect(0)}
+                className={selectionMap[0] ? "text-light" : "text-dark"}
+              >
+                ReactMultiSelectExample
+              </Nav.Link>
+            </NavDropdown.Item>
+            <NavDropdown.Divider />
+          </NavDropdown>
         </Nav>
         <Nav>
           <Nav.Link as={Link} to="/userhome" className="text-light">
