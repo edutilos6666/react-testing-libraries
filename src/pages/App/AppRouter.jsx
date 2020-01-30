@@ -33,6 +33,18 @@ import MaterialUISimpleTableExample from "../MaterialUIExamples/MaterialUISimple
 import MaterialUISnackbarExample from "../MaterialUIExamples/MaterialUISnackbarExample";
 import MaterialUIStepperExample from "../MaterialUIExamples/MaterialUIStepperExample";
 import ChartistBarChartExample from "../ChartistExamples/ChartistBarChartExample";
+import ReactOffcanvasExample from "../MenuExamples/ReactOffcanvasExample";
+import ReactBurgerMenuExample from "../MenuExamples/ReactBurgerMenuExample";
+import ReactContextMenuExample from "../MenuExamples/ReactContextMenuExample";
+import ReactStickyNodeExample from "../MenuExamples/ReactStickyNodeExample";
+import ReactTabsExample from "../MenuExamples/ReactTabsExample";
+import ReactTabTabExample from "../MenuExamples/ReactTabTabExample";
+import BlockUIExample from "../LoaderExamples/BlockUIExample";
+import ReactLoaderExample from "../LoaderExamples/ReactLoaderExample";
+import ReactLoadersExample from "../LoaderExamples/ReactLoadersExample";
+import ReactMDSpinnerExample from "../LoaderExamples/ReactMDSpinnerExample";
+import ReactProgressButtonExample from "../LoaderExamples/ReactProgressButtonExample";
+import ReactAccessibleAccordionExample from "../MenuExamples/ReactAccessibleAccordionExample";
 
 const AppRouter = () => {
   return (
@@ -98,6 +110,27 @@ const AppRouter = () => {
       <Route
         path="/chartist-bar-chart-example"
         component={ChartistBarChartExample}
+      />
+      {/* menu examples */}
+      <Route path="/offcanvas-example" component={ReactOffcanvasExample} />
+      <Route path="/burger-menu-example" component={ReactBurgerMenuExample} />
+      <Route path="/context-menu-example" component={ReactContextMenuExample} />
+      <Route path="/sticky-node-example" component={ReactStickyNodeExample} />
+      <Route path="/tabs-example" component={ReactTabsExample} />
+      <Route path="/tabtab-example" component={ReactTabTabExample} />
+      <Route
+        path="/accessible-accordion-example"
+        component={ReactAccessibleAccordionExample}
+      />
+
+      {/* loader examples */}
+      <Route path="/block-ui-example" component={BlockUIExample} />
+      <Route path="/loader-example" component={ReactLoaderExample} />
+      <Route path="/loaders-example" component={ReactLoadersExample} />
+      <Route path="/md-spinner-example" component={ReactMDSpinnerExample} />
+      <Route
+        path="/progress-button-example"
+        component={ReactProgressButtonExample}
       />
     </Router>
   );

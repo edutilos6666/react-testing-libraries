@@ -441,7 +441,161 @@ const Header = props => {
             </NavDropdown.Item>
             <NavDropdown.Divider />
           </NavDropdown>
+
+          {/* MenuExamples */}
+          <NavDropdown title="MenuExamples" id="rdnd">
+            <NavDropdown.Item eventKey={"offcanvas-example"} as="span">
+              <Nav.Link
+                as={Link}
+                to="/offcanvas-example"
+                onSelect={() => handleLinkOnSelect(0)}
+                className={selectionMap[0] ? "text-light" : "text-dark"}
+              >
+                ReactOffcanvasExample
+              </Nav.Link>
+            </NavDropdown.Item>
+            <NavDropdown.Divider />
+
+            {/* <NavDropdown.Item eventKey={"burger-menu-example"} as="span">
+              <Nav.Link
+                as={Link}
+                to="/burger-menu-example"
+                onSelect={() => handleLinkOnSelect(0)}
+                className={selectionMap[0] ? "text-light" : "text-dark"}
+              >
+                ReactBurgerMenuExample
+              </Nav.Link>
+            </NavDropdown.Item>
+            <NavDropdown.Divider /> */}
+
+            <NavDropdown.Item eventKey={"context-menu-example"} as="span">
+              <Nav.Link
+                as={Link}
+                to="/context-menu-example"
+                onSelect={() => handleLinkOnSelect(0)}
+                className={selectionMap[0] ? "text-light" : "text-dark"}
+              >
+                ReactContextMenuExample
+              </Nav.Link>
+            </NavDropdown.Item>
+            <NavDropdown.Divider />
+
+            <NavDropdown.Item eventKey={"sticky-node-example"} as="span">
+              <Nav.Link
+                as={Link}
+                to="/sticky-node-example"
+                onSelect={() => handleLinkOnSelect(0)}
+                className={selectionMap[0] ? "text-light" : "text-dark"}
+              >
+                ReactStickyNodeExample
+              </Nav.Link>
+            </NavDropdown.Item>
+            <NavDropdown.Divider />
+
+            <NavDropdown.Item eventKey={"tabs-example"} as="span">
+              <Nav.Link
+                as={Link}
+                to="/tabs-example"
+                onSelect={() => handleLinkOnSelect(0)}
+                className={selectionMap[0] ? "text-light" : "text-dark"}
+              >
+                ReactTabsExample
+              </Nav.Link>
+            </NavDropdown.Item>
+            <NavDropdown.Divider />
+
+            <NavDropdown.Item eventKey={"tabtab-example"} as="span">
+              <Nav.Link
+                as={Link}
+                to="/tabtab-example"
+                onSelect={() => handleLinkOnSelect(0)}
+                className={selectionMap[0] ? "text-light" : "text-dark"}
+              >
+                ReactTabTabExample
+              </Nav.Link>
+            </NavDropdown.Item>
+            <NavDropdown.Divider />
+
+            <NavDropdown.Item
+              eventKey={"accessible-accordion-example"}
+              as="span"
+            >
+              <Nav.Link
+                as={Link}
+                to="/accessible-accordion-example"
+                onSelect={() => handleLinkOnSelect(0)}
+                className={selectionMap[0] ? "text-light" : "text-dark"}
+              >
+                ReactAccessibleAccordionExample
+              </Nav.Link>
+            </NavDropdown.Item>
+            <NavDropdown.Divider />
+          </NavDropdown>
+
+          {/* LoaderExamples */}
+          <NavDropdown title="LoaderExamples" id="rdnd">
+            <NavDropdown.Item eventKey={"block-ui-example"} as="span">
+              <Nav.Link
+                as={Link}
+                to="/block-ui-example"
+                onSelect={() => handleLinkOnSelect(0)}
+                className={selectionMap[0] ? "text-light" : "text-dark"}
+              >
+                BlockUIExample
+              </Nav.Link>
+            </NavDropdown.Item>
+            <NavDropdown.Divider />
+
+            <NavDropdown.Item eventKey={"loader-example"} as="span">
+              <Nav.Link
+                as={Link}
+                to="/loader-example"
+                onSelect={() => handleLinkOnSelect(0)}
+                className={selectionMap[0] ? "text-light" : "text-dark"}
+              >
+                ReactLoaderExample
+              </Nav.Link>
+            </NavDropdown.Item>
+            <NavDropdown.Divider />
+
+            <NavDropdown.Item eventKey={"loaders-example"} as="span">
+              <Nav.Link
+                as={Link}
+                to="/loaders-example"
+                onSelect={() => handleLinkOnSelect(0)}
+                className={selectionMap[0] ? "text-light" : "text-dark"}
+              >
+                ReactLoadersExample
+              </Nav.Link>
+            </NavDropdown.Item>
+            <NavDropdown.Divider />
+
+            <NavDropdown.Item eventKey={"md-spinner-example"} as="span">
+              <Nav.Link
+                as={Link}
+                to="/md-spinner-example"
+                onSelect={() => handleLinkOnSelect(0)}
+                className={selectionMap[0] ? "text-light" : "text-dark"}
+              >
+                ReactMDSpinnerExample
+              </Nav.Link>
+            </NavDropdown.Item>
+            <NavDropdown.Divider />
+
+            <NavDropdown.Item eventKey={"progress-button-example"} as="span">
+              <Nav.Link
+                as={Link}
+                to="/progress-button-example"
+                onSelect={() => handleLinkOnSelect(0)}
+                className={selectionMap[0] ? "text-light" : "text-dark"}
+              >
+                ReactProgressButtonExample
+              </Nav.Link>
+            </NavDropdown.Item>
+            <NavDropdown.Divider />
+          </NavDropdown>
         </Nav>
+
         <Nav>
           <Nav.Link as={Link} to="/userhome" className="text-light">
             {faUserAltSlashIcon}
