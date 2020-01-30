@@ -45,6 +45,12 @@ import ReactLoadersExample from "../LoaderExamples/ReactLoadersExample";
 import ReactMDSpinnerExample from "../LoaderExamples/ReactMDSpinnerExample";
 import ReactProgressButtonExample from "../LoaderExamples/ReactProgressButtonExample";
 import ReactAccessibleAccordionExample from "../MenuExamples/ReactAccessibleAccordionExample";
+import FlatCarouselExample from "../CarouselExamples/FlatCarouselExample";
+import ReactAwesomeSliderExample from "../CarouselExamples/ReactAwesomeSliderExample";
+import PureReactCarouselExample from "../CarouselExamples/PureReactCarouselExample";
+import ReactIDSwiperExample from "../CarouselExamples/ReactIDSwiperExample";
+import ReactResponsiveCarouselExample from "../CarouselExamples/ReactResponsiveCarouselExample";
+import ReactSlickExample from "../CarouselExamples/ReactSlickExample";
 
 const AppRouter = () => {
   return (
@@ -132,6 +138,26 @@ const AppRouter = () => {
         path="/progress-button-example"
         component={ReactProgressButtonExample}
       />
+
+      {/* carousel examples */}
+      <Route path="/flat-carousel-example" component={FlatCarouselExample} />
+      <Route
+        path="/awesome-slider-example"
+        component={ReactAwesomeSliderExample}
+      />
+
+      <Route
+        path="/pure-carousel-example"
+        component={PureReactCarouselExample}
+      />
+
+      <Route path="/id-swiper-example" component={ReactIDSwiperExample} />
+      <Route
+        path="/responsive-carousel-example"
+        component={ReactResponsiveCarouselExample}
+      />
+
+      <Route path="/slick-example" component={ReactSlickExample} />
     </Router>
   );
 };

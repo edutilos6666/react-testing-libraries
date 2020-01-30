@@ -594,6 +594,84 @@ const Header = props => {
             </NavDropdown.Item>
             <NavDropdown.Divider />
           </NavDropdown>
+
+          {/* CarouselExamples */}
+          <NavDropdown title="CarouselExamples" id="rdnd">
+            <NavDropdown.Item eventKey={"flat-carousel-example"} as="span">
+              <Nav.Link
+                as={Link}
+                to="/flat-carousel-example"
+                onSelect={() => handleLinkOnSelect(0)}
+                className={selectionMap[0] ? "text-light" : "text-dark"}
+              >
+                FlatCarouselExample
+              </Nav.Link>
+            </NavDropdown.Item>
+            <NavDropdown.Divider />
+
+            <NavDropdown.Item eventKey={"awesome-slider-example"} as="span">
+              <Nav.Link
+                as={Link}
+                to="/awesome-slider-example"
+                onSelect={() => handleLinkOnSelect(0)}
+                className={selectionMap[0] ? "text-light" : "text-dark"}
+              >
+                AwesomeSliderExample
+              </Nav.Link>
+            </NavDropdown.Item>
+            <NavDropdown.Divider />
+
+            <NavDropdown.Item eventKey={"pure-carousel-example"} as="span">
+              <Nav.Link
+                as={Link}
+                to="/pure-carousel-example"
+                onSelect={() => handleLinkOnSelect(0)}
+                className={selectionMap[0] ? "text-light" : "text-dark"}
+              >
+                PureReactCarouselExample
+              </Nav.Link>
+            </NavDropdown.Item>
+            <NavDropdown.Divider />
+
+            <NavDropdown.Item eventKey={"id-swiper-example"} as="span">
+              <Nav.Link
+                as={Link}
+                to="/id-swiper-example"
+                onSelect={() => handleLinkOnSelect(0)}
+                className={selectionMap[0] ? "text-light" : "text-dark"}
+              >
+                ReactIDSwiperExample
+              </Nav.Link>
+            </NavDropdown.Item>
+            <NavDropdown.Divider />
+
+            <NavDropdown.Item
+              eventKey={"responsive-carousel-example"}
+              as="span"
+            >
+              <Nav.Link
+                as={Link}
+                to="/responsive-carousel-example"
+                onSelect={() => handleLinkOnSelect(0)}
+                className={selectionMap[0] ? "text-light" : "text-dark"}
+              >
+                ReactResponsiveCarouselExample
+              </Nav.Link>
+            </NavDropdown.Item>
+            <NavDropdown.Divider />
+
+            <NavDropdown.Item eventKey={"slick-example"} as="span">
+              <Nav.Link
+                as={Link}
+                to="/slick-example"
+                onSelect={() => handleLinkOnSelect(0)}
+                className={selectionMap[0] ? "text-light" : "text-dark"}
+              >
+                ReactSlickExample
+              </Nav.Link>
+            </NavDropdown.Item>
+            <NavDropdown.Divider />
+          </NavDropdown>
         </Nav>
 
         <Nav>
