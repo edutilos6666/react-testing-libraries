@@ -67,6 +67,7 @@
     "react-table": "^7.0.0-rc.15",
     "react-tabs": "^3.1.0",
     "react-tabtab": "^2.0.0",
+    "react-treebeard": "^3.2.4",
     "react-virtualized": "^9.21.2",
     "redux": "^4.0.5",
     "slick-carousel": "^1.8.1",

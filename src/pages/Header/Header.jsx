@@ -746,6 +746,18 @@ const Header = props => {
               </Nav.Link>
             </NavDropdown.Item>
             <NavDropdown.Divider />
+
+            <NavDropdown.Item eventKey={"tree-beard-example"} as="span">
+              <Nav.Link
+                as={Link}
+                to="/tree-beard-example"
+                onSelect={() => handleLinkOnSelect(0)}
+                className={selectionMap[0] ? "text-light" : "text-dark"}
+              >
+                TreeBeardExample
+              </Nav.Link>
+            </NavDropdown.Item>
+            <NavDropdown.Divider />
           </NavDropdown>
         </Nav>
 

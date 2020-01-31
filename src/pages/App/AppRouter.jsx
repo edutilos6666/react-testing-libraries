@@ -57,6 +57,7 @@ import ReactDataGridExample from "../GridAndTableExamples/ReactDataGridExample";
 import AutoresponsiveExample from "../GridAndTableExamples/AutoresponsiveExample";
 import GriddleExample from "../GridAndTableExamples/GriddleExample";
 import KATableExample from "../GridAndTableExamples/KATableExample";
+import TreeBeardExample from "../GridAndTableExamples/TreeBeardExample";
 
 const AppRouter = () => {
   return (
@@ -172,6 +173,7 @@ const AppRouter = () => {
       <Route path="/autoresponsive-example" component={AutoresponsiveExample} />
       <Route path="/griddle-example" component={GriddleExample} />
       <Route path="/ka-table-example" component={KATableExample} />
+      <Route path="/tree-beard-example" component={TreeBeardExample} />
     </Router>
   );
 };
