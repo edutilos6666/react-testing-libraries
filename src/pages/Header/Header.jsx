@@ -251,7 +251,7 @@ const Header = props => {
           </NavDropdown>
 
           {/* ReactVirtualizedExamples */}
-          <NavDropdown title="ReactVirtualizedExamples" id="rv">
+          <NavDropdown title="VirtualizedExamples" id="rv">
             <NavDropdown.Item eventKey={"rv-infinity-loader"} as="span">
               <Nav.Link
                 as={Link}
@@ -266,7 +266,7 @@ const Header = props => {
           </NavDropdown>
 
           {/* ReactSelectExamples */}
-          <NavDropdown title="ReactSelectExamples" id="rv">
+          <NavDropdown title="SelectExamples" id="rv">
             <NavDropdown.Item eventKey={"rs-single-select"} as="span">
               <Nav.Link
                 as={Link}
@@ -293,7 +293,7 @@ const Header = props => {
           </NavDropdown>
 
           {/* ReactPhoneNumberInputExamples */}
-          <NavDropdown title="ReactPhoneNumberInputExamples" id="rv">
+          <NavDropdown title="PhoneNumberInputExamples" id="rv">
             <NavDropdown.Item eventKey={"rpni-example-1"} as="span">
               <Nav.Link
                 as={Link}
@@ -308,7 +308,7 @@ const Header = props => {
           </NavDropdown>
 
           {/* ReactSortableHOCExamples */}
-          <NavDropdown title="ReactSortableHOCExamples" id="rv">
+          <NavDropdown title="SortableHOCExamples" id="rv">
             <NavDropdown.Item eventKey={"rsh-example-1"} as="span">
               <Nav.Link
                 as={Link}
@@ -335,7 +335,7 @@ const Header = props => {
           </NavDropdown>
 
           {/* ReactDnDExamples */}
-          <NavDropdown title="ReactDnDExamples" id="rdnd">
+          <NavDropdown title="DnDExamples" id="rdnd">
             <NavDropdown.Item eventKey={"rdnd-example-1"} as="span">
               <Nav.Link
                 as={Link}
@@ -755,6 +755,21 @@ const Header = props => {
                 className={selectionMap[0] ? "text-light" : "text-dark"}
               >
                 TreeBeardExample
+              </Nav.Link>
+            </NavDropdown.Item>
+            <NavDropdown.Divider />
+          </NavDropdown>
+
+          {/* MediaExamples */}
+          <NavDropdown title="MediaExamples" id="rdnd">
+            <NavDropdown.Item eventKey={"youtube-example"} as="span">
+              <Nav.Link
+                as={Link}
+                to="/youtube-example"
+                onSelect={() => handleLinkOnSelect(0)}
+                className={selectionMap[0] ? "text-light" : "text-dark"}
+              >
+                ReactYoutubeExample
               </Nav.Link>
             </NavDropdown.Item>
             <NavDropdown.Divider />

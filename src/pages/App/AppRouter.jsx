@@ -58,6 +58,7 @@ import AutoresponsiveExample from "../GridAndTableExamples/AutoresponsiveExample
 import GriddleExample from "../GridAndTableExamples/GriddleExample";
 import KATableExample from "../GridAndTableExamples/KATableExample";
 import TreeBeardExample from "../GridAndTableExamples/TreeBeardExample";
+import ReactYoutubeExample from "../MediaExamples/ReactYoutubeExample";
 
 const AppRouter = () => {
   return (
@@ -174,6 +175,9 @@ const AppRouter = () => {
       <Route path="/griddle-example" component={GriddleExample} />
       <Route path="/ka-table-example" component={KATableExample} />
       <Route path="/tree-beard-example" component={TreeBeardExample} />
+
+      {/* media examples */}
+      <Route path="/youtube-example" component={ReactYoutubeExample} />
     </Router>
   );
 };

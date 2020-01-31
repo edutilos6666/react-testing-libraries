@@ -69,6 +69,7 @@
     "react-tabtab": "^2.0.0",
     "react-treebeard": "^3.2.4",
     "react-virtualized": "^9.21.2",
+    "react-youtube": "^7.9.0",
     "redux": "^4.0.5",
     "slick-carousel": "^1.8.1",
     "styled-components": "^5.0.0",
