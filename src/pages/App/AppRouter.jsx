@@ -54,6 +54,9 @@ import ReactSlickExample from "../CarouselExamples/ReactSlickExample";
 import AGGridExample from "../GridAndTableExamples/AGGridExample";
 import GigaTablesExample from "../GridAndTableExamples/GigaTablesExample";
 import ReactDataGridExample from "../GridAndTableExamples/ReactDataGridExample";
+import AutoresponsiveExample from "../GridAndTableExamples/AutoresponsiveExample";
+import GriddleExample from "../GridAndTableExamples/GriddleExample";
+import KATableExample from "../GridAndTableExamples/KATableExample";
 
 const AppRouter = () => {
   return (
@@ -166,6 +169,9 @@ const AppRouter = () => {
       <Route path="/ag-grid-example" component={AGGridExample} />
       <Route path="/giga-tables-example" component={GigaTablesExample} />
       <Route path="/data-grid-example" component={ReactDataGridExample} />
+      <Route path="/autoresponsive-example" component={AutoresponsiveExample} />
+      <Route path="/griddle-example" component={GriddleExample} />
+      <Route path="/ka-table-example" component={KATableExample} />
     </Router>
   );
 };

@@ -710,6 +710,42 @@ const Header = props => {
               </Nav.Link>
             </NavDropdown.Item>
             <NavDropdown.Divider />
+
+            <NavDropdown.Item eventKey={"autoresponsive-example"} as="span">
+              <Nav.Link
+                as={Link}
+                to="/autoresponsive-example"
+                onSelect={() => handleLinkOnSelect(0)}
+                className={selectionMap[0] ? "text-light" : "text-dark"}
+              >
+                AutoresponsiveExample
+              </Nav.Link>
+            </NavDropdown.Item>
+            <NavDropdown.Divider />
+
+            <NavDropdown.Item eventKey={"griddle-example"} as="span">
+              <Nav.Link
+                as={Link}
+                to="/griddle-example"
+                onSelect={() => handleLinkOnSelect(0)}
+                className={selectionMap[0] ? "text-light" : "text-dark"}
+              >
+                GriddleExample
+              </Nav.Link>
+            </NavDropdown.Item>
+            <NavDropdown.Divider />
+
+            <NavDropdown.Item eventKey={"ka-table-example"} as="span">
+              <Nav.Link
+                as={Link}
+                to="/ka-table-example"
+                onSelect={() => handleLinkOnSelect(0)}
+                className={selectionMap[0] ? "text-light" : "text-dark"}
+              >
+                KATableExample
+              </Nav.Link>
+            </NavDropdown.Item>
+            <NavDropdown.Divider />
           </NavDropdown>
         </Nav>
 

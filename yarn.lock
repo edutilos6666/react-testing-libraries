@@ -2578,6 +2578,19 @@ autoprefixer@^9.6.1:
     postcss "^7.0.23"
     postcss-value-parser "^4.0.2"
 
+autoresponsive-core@^1.0.1:
+  version "1.0.1"
+  resolved "https://npm.mirror.ddg.sh/autoresponsive-core/-/autoresponsive-core-1.0.1.tgz#cbb77dffb5ee625fe3dae867671050632ba04916"
+  integrity sha512-sNmRjQWslRJFOHRF7tEtqHU4MH4FDHN46vYdScfYRctSkCc4Ksqs5jKiDRXkFIdSJ4XWWcboq92567S74IKFSQ==
+
+autoresponsive-react@^1.1.31:
+  version "1.1.31"
+  resolved "https://npm.mirror.ddg.sh/autoresponsive-react/-/autoresponsive-react-1.1.31.tgz#dede25f8ff7f7d4d0066159aa1636025df7f0637"
+  integrity sha512-aHzbT8Zr5Aaj0uQ6Zbf5552ojwTrfc3smOr8QW2ng9iAB6UxGRyYBg3jAvsezICzvLlmFk0g+n3i0px8SUS3Vw==
+  dependencies:
+    autoresponsive-core "^1.0.1"
+    exenv "^1.2.0"
+
 aws-sign2@~0.7.0:
   version "0.7.0"
   resolved "https://registry.yarnpkg.com/aws-sign2/-/aws-sign2-0.7.0.tgz#b46e890934a9591f2d2f6f86d7e6a9f1b3fe76a8"
@@ -5636,6 +5649,11 @@ execa@^1.0.0:
     signal-exit "^3.0.0"
     strip-eof "^1.0.0"
 
+exenv@^1.2.0:
+  version "1.2.2"
+  resolved "https://npm.mirror.ddg.sh/exenv/-/exenv-1.2.2.tgz#2ae78e85d9894158670b03d47bec1f03bd91bb9d"
+  integrity sha1-KueOhdmJQVhnCwPUe+wfA72Ru50=
+
 exit@^0.1.2:
   version "0.1.2"
   resolved "https://registry.yarnpkg.com/exit/-/exit-0.1.2.tgz#0632638f8d877cc82107d30a0fff1a17cba1cd0c"
@@ -6458,6 +6476,20 @@ graceful-fs@^4.1.11, graceful-fs@^4.1.15, graceful-fs@^4.1.2, graceful-fs@^4.1.6
   resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.2.3.tgz#4a12ff1b60376ef09862c2093edd908328be8423"
   integrity sha512-a30VEBm4PEdx1dRB7MFK7BejejvCvBronbLjht+sHuGYj8PHs7M/5Z+rt5lw551vZ7yfTCj4Vuyy3mSJytDWRQ==
 
+griddle-react@^1.13.1:
+  version "1.13.1"
+  resolved "https://npm.mirror.ddg.sh/griddle-react/-/griddle-react-1.13.1.tgz#463ae6f26664cd75560b8f88e63da0248865e754"
+  integrity sha512-72b/GXXD135LcWOQUHZP9YEOdQEfqvpdBM7W4bfKbwlHJqwsAcokH35EUrNRofgFaengNs8bH2vj+hbf2S0x7w==
+  dependencies:
+    immutable "^3.8.1"
+    lodash "^4.17.4"
+    max-safe-integer "^1.0.0"
+    prop-types "^15.5.8"
+    react-redux "^5.0.6"
+    recompose "^0.21.2"
+    redux "^3.5.2"
+    reselect "^2.5.3"
+
 growly@^1.3.0:
   version "1.3.0"
   resolved "https://registry.yarnpkg.com/growly/-/growly-1.3.0.tgz#f10748cbe76af964b7c96c93c6bcc28af120c081"
@@ -6645,6 +6677,11 @@ hoek@^5.0.3:
   version "5.0.4"
   resolved "https://npm.mirror.ddg.sh/hoek/-/hoek-5.0.4.tgz#0f7fa270a1cafeb364a4b2ddfaa33f864e4157da"
   integrity sha512-Alr4ZQgoMlnere5FZJsIyfIjORBqZll5POhDsF4q64dPuJR6rNxXdDxtHSQq8OXRurhmx+PWYEE8bXRROY8h0w==
+
+hoist-non-react-statics@^1.0.0:
+  version "1.2.0"
+  resolved "https://npm.mirror.ddg.sh/hoist-non-react-statics/-/hoist-non-react-statics-1.2.0.tgz#aa448cf0986d55cc40773b17174b7dd066cb7cfb"
+  integrity sha1-qkSM8JhtVcxAdzsXF0t90GbLfPs=
 
 hoist-non-react-statics@^2.1.0, hoist-non-react-statics@^2.3.1:
   version "2.5.5"
@@ -8351,6 +8388,11 @@ jsx-ast-utils@^2.2.1:
     array-includes "^3.0.3"
     object.assign "^4.1.0"
 
+ka-table@^2.5.4:
+  version "2.5.4"
+  resolved "https://npm.mirror.ddg.sh/ka-table/-/ka-table-2.5.4.tgz#2a72471c6ebf8b23af3c689f51293cbeab196472"
+  integrity sha512-O4euaOZMkTXOh/irIHPjcRpJF3DY9D00LqtqKSz09Qdbe3yIRobZwKIxLh2RF5bxUBA1Odx+O+cD0CwTZ6WOeg==
+
 keycode@^2.2.0:
   version "2.2.0"
   resolved "https://npm.mirror.ddg.sh/keycode/-/keycode-2.2.0.tgz#3d0af56dc7b8b8e5cba8d0a97f107204eec22b04"
@@ -8726,6 +8768,11 @@ math-expression-evaluator@^1.2.14:
   version "1.2.22"
   resolved "https://npm.mirror.ddg.sh/math-expression-evaluator/-/math-expression-evaluator-1.2.22.tgz#c14dcb3d8b4d150e5dcea9c68c8dad80309b0d5e"
   integrity sha512-L0j0tFVZBQQLeEjmWOvDLoRciIY8gQGWahvkztXUal8jH8R5Rlqo9GCvgqvXcy9LQhEWdQCVvzqAbxgYNt4blQ==
+
+max-safe-integer@^1.0.0:
+  version "1.0.1"
+  resolved "https://npm.mirror.ddg.sh/max-safe-integer/-/max-safe-integer-1.0.1.tgz#f38060be2c563d8c02e6d48af39122fd83b6f410"
+  integrity sha1-84BgvixWPYwC5tSK85Ei/YO29BA=
 
 md5.js@^1.3.4:
   version "1.3.5"
@@ -11195,7 +11242,7 @@ prop-types-extra@^1.1.0:
     react-is "^16.3.2"
     warning "^4.0.0"
 
-prop-types@^15.5.0, prop-types@^15.5.10, prop-types@^15.5.7, prop-types@^15.5.8, prop-types@^15.6.0, prop-types@^15.6.2, prop-types@^15.7.2:
+prop-types@^15.5.0, prop-types@^15.5.10, prop-types@^15.5.7, prop-types@^15.5.8, prop-types@^15.6.0, prop-types@^15.6.1, prop-types@^15.6.2, prop-types@^15.7.2:
   version "15.7.2"
   resolved "https://npm.mirror.ddg.sh/prop-types/-/prop-types-15.7.2.tgz#52c41e75b8c87e72b9d9360e0206b99dcbffa6c5"
   integrity sha512-8QQikdH7//R2vurIJSutZ1smHYTcLpRWEOlHnzcWHmBYrOGUysKwSsrC89BCiFj3CbrfJ/nXFdJepOVrY1GCHQ==
@@ -11662,7 +11709,7 @@ react-is@^16.12.0, react-is@^16.3.2, react-is@^16.6.0, react-is@^16.6.3, react-i
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.12.0.tgz#2cc0fe0fba742d97fd527c42a13bec4eeb06241c"
   integrity sha512-rPCkf/mWBtKc97aLL9/txD8DZdemK0vkA3JMLShjlJB3Pj3s+lpf1KaBzMfQrAmhMQB0n1cU/SUGgKKBCe837Q==
 
-react-lifecycles-compat@^3.0.2, react-lifecycles-compat@^3.0.4:
+react-lifecycles-compat@^3.0.0, react-lifecycles-compat@^3.0.2, react-lifecycles-compat@^3.0.4:
   version "3.0.4"
   resolved "https://npm.mirror.ddg.sh/react-lifecycles-compat/-/react-lifecycles-compat-3.0.4.tgz#4f1a273afdfc8f3488a8c516bfda78f872352362"
   integrity sha512-fBASbA6LnOU9dOU2eW7aQ8xmYBSXUIWr+UmF9b1efZBazGNO+rcXT/icdKnYm2pTwcRylVUYwW7H1PHfLekVzA==
@@ -11759,6 +11806,19 @@ react-reconciler@^0.7.0:
     loose-envify "^1.1.0"
     object-assign "^4.1.1"
     prop-types "^15.6.0"
+
+react-redux@^5.0.6:
+  version "5.1.2"
+  resolved "https://npm.mirror.ddg.sh/react-redux/-/react-redux-5.1.2.tgz#b19cf9e21d694422727bf798e934a916c4080f57"
+  integrity sha512-Ns1G0XXc8hDyH/OcBHOxNgQx9ayH3SPxBnFCOidGKSle8pKihysQw2rG/PmciUQRoclhVBO8HMhiRmGXnDja9Q==
+  dependencies:
+    "@babel/runtime" "^7.1.2"
+    hoist-non-react-statics "^3.3.0"
+    invariant "^2.2.4"
+    loose-envify "^1.1.0"
+    prop-types "^15.6.1"
+    react-is "^16.6.0"
+    react-lifecycles-compat "^3.0.0"
 
 react-responsive-carousel@^3.1.51:
   version "3.1.51"
@@ -12165,6 +12225,16 @@ recast@^0.11.17:
     react-lifecycles-compat "^3.0.2"
     symbol-observable "^1.0.4"
 
+recompose@^0.21.2:
+  version "0.21.2"
+  resolved "https://npm.mirror.ddg.sh/recompose/-/recompose-0.21.2.tgz#ff3fbdb2397b1c77c47d451be2a63b9295d44681"
+  integrity sha1-/z+9sjl7HHfEfUUb4qY7kpXURoE=
+  dependencies:
+    change-emitter "^0.1.2"
+    fbjs "^0.8.1"
+    hoist-non-react-statics "^1.0.0"
+    symbol-observable "^1.0.4"
+
 recursive-readdir@2.2.2:
   version "2.2.2"
   resolved "https://registry.yarnpkg.com/recursive-readdir/-/recursive-readdir-2.2.2.tgz#9946fb3274e1628de6e36b2f6714953b4845094f"
@@ -12204,7 +12274,7 @@ reduce-function-call@^1.0.1:
   dependencies:
     balanced-match "^1.0.0"
 
-redux@^3.7.1:
+redux@^3.5.2, redux@^3.7.1:
   version "3.7.2"
   resolved "https://npm.mirror.ddg.sh/redux/-/redux-3.7.2.tgz#06b73123215901d25d065be342eb026bc1c8537b"
   integrity sha512-pNqnf9q1hI5HHZRBkj3bAngGZW/JMCmexDlOxw4XagXY2o1327nHH54LoTjiPJ0gizoqPDRqWyX/00g0hD6w+A==
@@ -12214,7 +12284,7 @@ redux@^3.7.1:
     loose-envify "^1.1.0"
     symbol-observable "^1.0.3"
 
-redux@^4.0.4:
+redux@^4.0.4, redux@^4.0.5:
   version "4.0.5"
   resolved "https://npm.mirror.ddg.sh/redux/-/redux-4.0.5.tgz#4db5de5816e17891de8a80c424232d06f051d93f"
   integrity sha512-VSz1uMAH24DM6MF72vcojpYPtrTUu3ByVWfPL1nPfVRb5mZVTve5GnNCUV53QM/BZ66xfWrm0CTWoM+Xlz8V1w==
@@ -12431,7 +12501,7 @@ requires-port@1.x.x, requires-port@^1.0.0:
   resolved "https://registry.yarnpkg.com/requires-port/-/requires-port-1.0.0.tgz#925d2601d39ac485e091cf0da5c6e694dc3dcaff"
   integrity sha1-kl0mAdOaxIXgkc8NpcbmlNw9yv8=
 
-reselect@^2.5.1:
+reselect@^2.5.1, reselect@^2.5.3:
   version "2.5.4"
   resolved "https://npm.mirror.ddg.sh/reselect/-/reselect-2.5.4.tgz#b7d23fdf00b83fa7ad0279546f8dbbbd765c7047"
   integrity sha1-t9I/3wC4P6etAnlUb427vXZccEc=
