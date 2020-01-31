@@ -51,6 +51,9 @@ import PureReactCarouselExample from "../CarouselExamples/PureReactCarouselExamp
 import ReactIDSwiperExample from "../CarouselExamples/ReactIDSwiperExample";
 import ReactResponsiveCarouselExample from "../CarouselExamples/ReactResponsiveCarouselExample";
 import ReactSlickExample from "../CarouselExamples/ReactSlickExample";
+import AGGridExample from "../GridAndTableExamples/AGGridExample";
+import GigaTablesExample from "../GridAndTableExamples/GigaTablesExample";
+import ReactDataGridExample from "../GridAndTableExamples/ReactDataGridExample";
 
 const AppRouter = () => {
   return (
@@ -158,6 +161,11 @@ const AppRouter = () => {
       />
 
       <Route path="/slick-example" component={ReactSlickExample} />
+
+      {/* grid and table examples */}
+      <Route path="/ag-grid-example" component={AGGridExample} />
+      <Route path="/giga-tables-example" component={GigaTablesExample} />
+      <Route path="/data-grid-example" component={ReactDataGridExample} />
     </Router>
   );
 };

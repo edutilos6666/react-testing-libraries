@@ -672,6 +672,45 @@ const Header = props => {
             </NavDropdown.Item>
             <NavDropdown.Divider />
           </NavDropdown>
+
+          {/* GridAndTableExamples */}
+          <NavDropdown title="GridAndTableExamples" id="rdnd">
+            <NavDropdown.Item eventKey={"ag-grid-example"} as="span">
+              <Nav.Link
+                as={Link}
+                to="/ag-grid-example"
+                onSelect={() => handleLinkOnSelect(0)}
+                className={selectionMap[0] ? "text-light" : "text-dark"}
+              >
+                AGGridExample
+              </Nav.Link>
+            </NavDropdown.Item>
+            <NavDropdown.Divider />
+
+            <NavDropdown.Item eventKey={"giga-tables-example"} as="span">
+              <Nav.Link
+                as={Link}
+                to="/giga-tables-example"
+                onSelect={() => handleLinkOnSelect(0)}
+                className={selectionMap[0] ? "text-light" : "text-dark"}
+              >
+                GigaTablesExample
+              </Nav.Link>
+            </NavDropdown.Item>
+            <NavDropdown.Divider />
+
+            <NavDropdown.Item eventKey={"data-grid-example"} as="span">
+              <Nav.Link
+                as={Link}
+                to="/data-grid-example"
+                onSelect={() => handleLinkOnSelect(0)}
+                className={selectionMap[0] ? "text-light" : "text-dark"}
+              >
+                ReactDataGridExample
+              </Nav.Link>
+            </NavDropdown.Item>
+            <NavDropdown.Divider />
+          </NavDropdown>
         </Nav>
 
         <Nav>
